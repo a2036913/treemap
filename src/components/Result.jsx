@@ -98,8 +98,8 @@ const Result = ({inputArray, row}) => {
             data-item={i}
             style={itemStyle(item, i)}
           >
-            <p>{item.name}</p>
-            <p>{Math.round(item.value*100)/100}</p>
+            <p style={{textAlign : 'center'}}>{item.name}</p>
+            <p style={{textAlign : 'center'}}>{Math.round(item.value*100)/100}</p>
           </div>
         ))}
       </div>

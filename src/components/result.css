@@ -1,0 +1,10 @@
+.result {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultMap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}

@@ -1,0 +1,28 @@
+.app {
+  padding: 0;
+  margin: 0;
+
+}
+
+.container {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  min-height: calc(100vh - 60px);
+  border-radius: 20px;
+  background: rgb(162, 178, 231);
+  display: flex;;
+}
+
+.panel {
+  display: flex;
+  flex: 1;
+}
+
+.result {
+  display: flex;
+  flex: 3;
+}
